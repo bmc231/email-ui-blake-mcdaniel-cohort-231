@@ -1,0 +1,117 @@
+html, body{
+    height: 100%;
+}
+
+.column1, .column3 {
+    background-color: #C88585;
+}
+
+.column2, .offcanvas-body {
+    background-color: #8D2727;
+}
+
+.rowred, .btncstm{
+    background-color: #8D2727;
+    color:aliceblue
+}
+
+#message, #bcc, #cc, #to, #offcanvas, .offcanvas-header, .rowsal, .btncstm2 {
+    background-color:#C88585;
+    color: aliceblue;
+}
+.p1, h6, h1{
+    color: aliceblue;
+}
+
+.villian{
+    min-width:60px;
+}
+
+.cosmonaut{
+    min-width: 45px;
+}
+
+.btngrp{
+margin-top: 100px;
+}
+
+
+.compsbtn{
+    padding:15%;
+}
+.hmbbtn{
+    margin-bottom: 25px;
+}
+
+.emaildisplaywindow1{
+    margin:50px;
+    
+}
+
+.emaildisplaywindow2{
+    margin: 50px;
+   }
+
+.center1{
+    background-color: #D9D9D9;
+}
+/*search box layout and template snippet found at https://bbbootstrap.com/snippets/google-type-search-box-inputgroup-21963395 
+ by Team@bbbootstrap62244made */
+.microphone{
+    border-top-right-radius: 32px !important;
+border-bottom-right-radius: 32px !important;
+background-color: #fff;
+}
+
+.google{
+     border-top-left-radius: 32px !important;
+border-bottom-left-radius: 32px !important;
+background-color: #fff;
+
+}
+
+.input-group-prepend {
+margin-right: -2px !important;
+}
+
+.input-group-append {
+margin-left: -2px !important;
+}
+
+.form-control:focus {
+color: #495057; 
+background-color: #fff;
+border-color: #ced4da;
+outline: 0;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.form-control{
+ border-right: 0 !important;
+ border-left: 0 !important;
+}
+/*search box layout and template*/
+
+/* script for hover function found at bootstrap.com */
+@media (any-hover:hover){
+    .emaildisplaywindow2:hover,.emaildisplaywindow1:hover, .rowsal:hover, .rowred:hover, .google:hover, 
+    .microphone:hover, .hmbmenu:hover, .btncstm:hover {
+        background-color: rgb(149, 65, 56);
+    
+}
+}
+
+@media (any-hover:hover){
+     .btncstm2:hover {
+        background-color: rgb(216, 104, 104);
+    
+}
+}
+
+.scrollcheck{
+    height:90vh;
+}
+/* webkit script found on overflow.com */
+ div.scrollcheck::-webkit-scrollbar {display:none;
+}

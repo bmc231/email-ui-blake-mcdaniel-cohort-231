@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>RedPlanetMail</title>
+        <link rel="icon" type="image/x-icon" href="Goodstuff-No-Nonsense-Free-Space-Mars.512.png">
+
+    </head>
+    <body>
+        <div class="container-fluidh-100 w-100"> 
+            <div class="row h-100 row1">
+                <!-- column 1 -->
+                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 column1"> 
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col row justify-between-between smcollayout">
+                                <div class="col-6">
+                                    <img src="noun-cosmonaut-1616369.svg" class="card-img  cosmonaut">  
+                                </div>
+                                <button type="button" class="btn col-6 d-flex ">
+                                    <img src="icons8-supervillain-48.ico" class="img-thumbnail d-sm-flex villian" data-bs-toggle="popover" data-bs-title="The Adjuster" data-bs-content="Adjuster@EvilInsured.LLC"> 
+                                </button>
+                            </div>
+                            <div class="col align-self-end  smcollayout">
+                                <div class="container-fluid d-lg-none ">
+                                    <!-- script for the button was found on bootstap.com -->
+                                    <button class="btn  btn-sm d-lg-none rounded-circle hmbbtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"> 
+                                        <img src="hambergermenu.png" class="img-thumbnail rounded-circle hmbmenu d-lg-none" alt="">
+                                    </button>
+                                     
+                                      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
+                                        <div class="offcanvas-header">
+                                          <h5 class="offcanvas-title" id="offcanvas">Menu</h5>
+                                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                          <!-- script for the vertical button layout was found on bootstap.com -->
+                                            <div class="btn-group-vertical d-flex col-12">                                            
+                                                <button type="button" class="btn btncstm2 btn-lg btn-block">Inbox</button>
+                                                <button type="button" class="btn btncstm2 btn-lg btn-block">Sent</button>
+                                                <button type="button" class="btn btncstm2 btn-lg btn-block">saved</button>
+                                                <button type="button" class="btn btncstm2 btn-lg btn-block">overdue</button>
+                                                <button type="button" class="btn btncstm2 btn-lg btn-block">space junk</button>
+                                                <button type="button" class="btn btncstm2 btn-lg btn-block">Debris</button>
+                                                <button type="button" class="btn btncstm2 btn-lg btn-block">settings</button>                                                                      
+                                          </div>
+                                        </div>
+                                      </div>
+                               
+                                </div>
+                            </div>
+                            <div class="col co3 d-none d-md-flex d-lg-none">
+                              <!-- script for the button layout and styling was found on bootstrap.com -->
+                                <button class="btn rounded-circle align-items-center d-lg-none compsbtn"> 
+                                    <img src="compose-button.svg" class="img-thumbnail btn-sm rounded-circle btncstm"type="button" data-bs-toggle="offcanvas" data-bs-target="#emailform" aria-controls="offcanvas">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                         <!-- script for the vertical button layout was found on bootstap.com -->
+                            <div class="btn-group-vertical d-none d-lg-flex btngrp mx-auto d-flex align-content" style="width:20vw;">
+                                <button type="button" class="btn btncstm btn-lg btn-block">Inbox</button>
+                                <button type="button" class="btn btncstm btn-lg btn-block">Sent</button>
+                                <button type="button" class="btn btncstm btn-lg btn-block">Draft</button>
+                                <button type="button" class="btn btncstm btn-lg btn-block">saved</button>
+                                <button type="button" class="btn btncstm btn-lg btn-block">overdue</button>
+                                <button type="button" class="btn btncstm btn-lg btn-block">space junk</button>
+                                <button type="button" class="btn btncstm btn-lg btn-block">Debris</button>
+                                <button type="button" class="btn btncstm btn-lg btn-block">settings</button>
+                                <button type="button" class="btn btncstm btn-lg btn-blockd-xs-none"type="button" data-bs-toggle="offcanvas" data-bs-target="#emailform" aria-controls="offcanvas">Compose</button>
+                            </div>                        
+                </div>            
+                
+                <!-- column 2 -->
+                <!-- search bar layout and template snippet found at https://bbbootstrap.com/snippets/google-type-search-box-inputgroup-21963395 
+                    by Team@bbbootstrap62244made -->
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl- column2">
+                    <div class="container d-flex justify-content-center ">
+                        <div class="input-group col-sm-7 input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text google">
+                                    <img src="https://img.icons8.com/color/48/000000/google-logo.png">
+                                </span>
+                            </div>
+                                <input type="text" class="form-control">
+                            <div class="input-group-append">
+                                <span class="input-group-text microphone">
+                                    <img src="https://img.icons8.com/nolan/48/000000/microphone.png">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inbxsts">
+                        <div class="col border border-3 emaildisplaywindow1 d-flex-column"> 
+                            <h6 class="border border-1">
+                                Newest email
+                            </h6>
+                            <p class="p1">
+                            Potter@darklords.com- thankyou for the complementary policy upon defeating 
+                            whats-his-face not sure ill ever use it but it sue scares the crap out of people 
+                            whoa have buggin me when i show it to them. i wonder why
+                            </p>
+                        </div>
+                    
+                    
+                        <div class="col border border-3 emaildisplaywindow2  d-none d-lg-block">
+                            <h6 class="border border-1">
+                                Oldest email
+                            </h6>
+                            <p class="p1">
+                            Draco@darklord.com -what do you mean i don't qualify for coverage with your company when my father hers about this...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- column 3 -->
+                <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 column3">
+                    <h1>
+                        Inbox
+                    </h1>
+                    <div class= "overflow-y-scroll  scrollcheck">
+                        <div class="row rowred"><span class="border border-2">
+                            <p> 
+                                Potter@darklords.com- thankyou for the complementary policy upon defeating 
+                                whats-his-face not sure ill ever use it but it sue scares the crap out of people 
+                                whoa have buggin me when i show it to them. i wonder why
+                            </p></span>
+                        </div>
+                        <div class="row rowsal">
+                            <span class="border border-2">
+                                <p>
+                                    Palpatiene@darklord.com-You wont believe this i need the insurance 
+                                    information for my space station my apprentice forgot to tell me there was a exhaust port any farm boy could hit 
+                                </p>
+                            </span>
+                        </div>
+                        <div class="row rowred">
+                            <span class="border border-2">
+                                <p> 
+                                    Sauron@darklord.com- hypothetically if a two foot tall brave little man
+                                    threw the source off all my power in to a volcano would my policy cover it
+                                </p>
+                            </span>
+                        </div>
+                        <div class="row rowsal">
+                            <span class="border border-2">
+                                <p> 
+                                    Voldermort@darklord.com-how was i supposed to know that this new wand I 
+                                    .... Acquired wasn't covered under the Immortality clause of my policy i demand to talk to your superior 
+                                </p>
+                            </span>
+                        </div>
+                        <div class="row rowred">
+                        <span class="border border-2">
+                                <p>
+                                    Thanos@darklord.com- what do you mean 
+                                    i dont have coverage in cases of time travel
+                                </p>
+                            </span>
+                        </div>
+                        <div class="row rowsal">
+                            <span class="border border-1">
+                                <p>
+                                    Saruman@darklord.com-once again i have received i denial letter for m policy 
+                                    with our company i demand too receive coverage. and please stop sending me referrals to minions -r-us
+                                </p>
+                            </span>
+                        </div>
+                        <div class="row rowred">
+                            <span class="border border-1">
+                                <p>
+                                    Lucius@minnions-r-us - please disregard my idiot sons threats he still hasnt come to terms with our positions
+                                </p>
+                            </span>
+                        </div>
+                        <div class="row rowsal">
+                            <Span class="border border-1">
+                                <p>
+                                    Draco@darklord.com-you unionized my lackeys now i actually 
+                                    have to pay them and provide heath coverage when my father hers about this he will destroy you
+                                </p>
+                            </Span>
+                        </div>
+                        <div class="row rowred">
+                            <span class="border border-1">
+                                <p>
+                                    Goyle@minnions-r-us- thanks for the aplications 
+                                </p>
+                            </span>
+                        </div>
+                        <div class=" row rowsal">
+                            <span class="border border-1">  
+                                <p>
+                                    Crabby@minnions-r-us- thanks for sending the application for minnions-r-us to Draco
+                                </p>
+                            </span>
+                        </div>
+                        <div class="row rowred">
+                            <span class="border border-1">
+                                <p>
+                                    Draco@darklord.com -what do you mean i dont qualify for coverage with your company when my father hers about this...
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <!-- script for the button was found on bootstap.com -->
+                        <button class="btn btn-light btn-lg rounded-circle align-items-center d-flex d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#emailform" aria-controls="offcanvas"> 
+                            <h1>@</h1>
+                        </button>
+                        <!-- script for offcanvas found on bootstrap.com and vertical button menu from bootstrap.com -->
+                        <!-- script for email form found at https://www.bootdey.com/snippets/view/bs4-compose-email -->
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="emailform" aria-labelledby="offcanvas">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvas">Compose Email</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              <div class="">
+                                <main>
+                                    <p class="text-center">New Message</p>
+                                    <form>
+                                        <div class="form-row mb-3">
+                                            <label for="to" class="col-2 col-sm-1 col-form-label">To:</label>
+                                            <div class="col-10 col-sm-11">
+                                                <input type="email" class="form-control" id="to" placeholder="Type email">
+                                            </div>
+                                        </div>
+                                        <div class="form-row mb-3">
+                                            <label for="cc" class="col-2 col-sm-1 col-form-label">CC:</label>
+                                            <div class="col-10 col-sm-11">
+                                                <input type="email" class="form-control" id="cc" placeholder="Type email">
+                                            </div>
+                                        </div>
+                                        <div class="form-row mb-3">
+                                            <label for="bcc" class="col-2 col-sm-1 col-form-label">BCC:</label>
+                                            <div class="col-10 col-sm-11">
+                                                <input type="email" class="form-control" id="bcc" placeholder="Type email">
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="row">
+                                        <div class="col-sm-11 ml-auto">                                                                                  
+                                            <div class="form-group mt-4">
+                                                <textarea class="form-control" id="message" name="body" rows="12" placeholder="Click here to reply"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-success">Send</button>
+                                                <button type="submit" class="btn btn-light">Draft</button>
+                                                <button type="submit" class="btn btn-danger">Discard</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                                          
+                              </div>
+                            </div>
+                          </div>
+                   
+                    
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            
+        <!-- script for popovers fond on bootstrap.com -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script>
+            const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+            const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+        </script>
+        <!--the images i used cam from 
+            user icon-https://icons8.com/icons/set/evil-look
+            logo-https://thenounproject.com/icon/astronaut-1632965/
+            favicon-https://iconarchive.com/show/free-space-icons-by-goodstuff-no-nonsense.html -->
+
+    </body>
+</html>
