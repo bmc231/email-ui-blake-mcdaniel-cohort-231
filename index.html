@@ -19,20 +19,25 @@
                     <div class="container text-center">
                         <div class="row">
                             <div class="col row justify-between-between smcollayout">
+
+                                <!-- logo -->
                                 <div class="col-6">
                                     <img src="noun-cosmonaut-1616369.svg" class="card-img  cosmonaut">  
                                 </div>
+
+                                <!-- avatar with butoon to view username and email adress -->
                                 <button type="button" class="btn col-6 d-flex ">
                                     <img src="icons8-supervillain-48.ico" class="img-thumbnail d-sm-flex villian" data-bs-toggle="popover" data-bs-title="The Adjuster" data-bs-content="Adjuster@EvilInsured.LLC"> 
                                 </button>
                             </div>
+
                             <div class="col align-self-end  smcollayout">
                                 <div class="container-fluid d-lg-none ">
                                     <!-- script for the button was found on bootstap.com -->
                                     <button class="btn  btn-sm d-lg-none rounded-circle hmbbtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"> 
                                         <img src="hambergermenu.png" class="img-thumbnail rounded-circle hmbmenu d-lg-none" alt="">
                                     </button>
-                                     
+                                        <!-- offcanvas for menu at tablet size and bellow -->
                                       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
                                         <div class="offcanvas-header">
                                           <h5 class="offcanvas-title" id="offcanvas">Menu</h5>
@@ -45,30 +50,35 @@
                                                 <button type="button" class="btn btncstm2 btn-lg btn-block">Sent</button>
                                                 <button type="button" class="btn btncstm2 btn-lg btn-block">saved</button>
                                                 <button type="button" class="btn btncstm2 btn-lg btn-block">overdue</button>
+                                                <button type="button" class="btn btncstm2 btn-lg btn-blockd"type="button" data-bs-toggle="offcanvas" data-bs-target="#contacts" aria-controls="offcanvas">Contacts</button>
                                                 <button type="button" class="btn btncstm2 btn-lg btn-block">space junk</button>
                                                 <button type="button" class="btn btncstm2 btn-lg btn-block">Debris</button>
                                                 <button type="button" class="btn btncstm2 btn-lg btn-block">settings</button>                                                                      
                                           </div>
                                         </div>
                                       </div>
-                               
                                 </div>
                             </div>
                             <div class="col co3 d-none d-md-flex d-lg-none">
-                              <!-- script for the button layout and styling was found on bootstrap.com -->
+                              
+                                <!-- button to compose email -->
+                                <!-- script for the button layout and styling was found on bootstrap.com -->
                                 <button class="btn rounded-circle align-items-center d-lg-none compsbtn"> 
                                     <img src="compose-button.svg" class="img-thumbnail btn-sm rounded-circle btncstm"type="button" data-bs-toggle="offcanvas" data-bs-target="#emailform" aria-controls="offcanvas">
                                 </button>
                             </div>
                         </div>
                     </div>
-                         <!-- script for the vertical button layout was found on bootstap.com -->
+
+                        <!--menu for desktop screen  -->
+                    <!-- script for the vertical button layout was found on bootstap.com -->
                             <div class="btn-group-vertical d-none d-lg-flex btngrp mx-auto d-flex align-content" style="width:20vw;">
                                 <button type="button" class="btn btncstm btn-lg btn-block">Inbox</button>
                                 <button type="button" class="btn btncstm btn-lg btn-block">Sent</button>
                                 <button type="button" class="btn btncstm btn-lg btn-block">Draft</button>
                                 <button type="button" class="btn btncstm btn-lg btn-block">saved</button>
                                 <button type="button" class="btn btncstm btn-lg btn-block">overdue</button>
+                                <button type="button" class="btn btncstm btn-lg btn-blockd"type="button" data-bs-toggle="offcanvas" data-bs-target="#contacts" aria-controls="offcanvas">Contacts</button>
                                 <button type="button" class="btn btncstm btn-lg btn-block">space junk</button>
                                 <button type="button" class="btn btncstm btn-lg btn-block">Debris</button>
                                 <button type="button" class="btn btncstm btn-lg btn-block">settings</button>
@@ -95,7 +105,8 @@
                             </div>
                         </div>
                     </div>
-
+                    
+                    <!--newest eamil preview -->
                     <div class="inbxsts">
                         <div class="col border border-3 emaildisplaywindow1 d-flex-column"> 
                             <h6 class="border border-1">
@@ -108,7 +119,7 @@
                             </p>
                         </div>
                     
-                    
+                        <!-- oldest email viewer -->
                         <div class="col border border-3 emaildisplaywindow2  d-none d-lg-block">
                             <h6 class="border border-1">
                                 Oldest email
@@ -120,6 +131,7 @@
                     </div>
                 </div>
                 
+                <!-- inbox viewer for all size screens -->
                 <!-- column 3 -->
                 <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 column3">
                     <h1>
@@ -128,7 +140,7 @@
                     <div class= "overflow-y-scroll  scrollcheck">
                         <div class="row rowred"><span class="border border-2">
                             <p> 
-                                Potter@darklords.com- thankyou for the complementary policy upon defeating 
+                                Potter@darklord.com- thankyou for the complementary policy upon defeating 
                                 whats-his-face not sure ill ever use it but it sue scares the crap out of people 
                                 whoa have buggin me when i show it to them. i wonder why
                             </p></span>
@@ -210,12 +222,14 @@
                             </span>
                         </div>
                     </div>
+                    
+                    <!-- small screen email composition button -->
+                    <!-- script for the button was found on bootstap.com -->
                     <div>
-                        <!-- script for the button was found on bootstap.com -->
                         <button class="btn btn-light btn-lg rounded-circle align-items-center d-flex d-md-none smllcmpbtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#emailform" aria-controls="offcanvas"> 
                             <h1>@</h1>
                         </button>
-                        <!-- script for offcanvas found on bootstrap.com and vertical button menu from bootstrap.com -->
+                        <!-- offcanvas email composing form -->
                         <!-- script for email form found at https://www.bootdey.com/snippets/view/bs4-compose-email -->
                         <div class="offcanvas offcanvas-start" tabindex="-1" id="emailform" aria-labelledby="offcanvas">
                             <div class="offcanvas-header">
@@ -223,7 +237,6 @@
                               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                              <div class="">
                                 <main>
                                     <p class="text-center">New Message</p>
                                     <form>
@@ -258,15 +271,35 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
-                                                          
-                              </div>
+                                </main>                    
                             </div>
-                          </div>
-                   
-                    
-                    
-                    </div>
+                         </div>
+                        </div>
+
+                            <!--offcanvas contact list -->
+                           <!-- script for offcanvas found on bootstrap.com and vertical button menu from bootstrap.com -->
+                           <div class="offcanvas offcanvas-start" tabindex="-1" id="contacts" aria-labelledby="offcanvas">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="contacts">Contacts</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                            <div class="offcanvas-body">
+                                <div class="row  border border-2">
+                                    <ul class="rowsal">Contact list</ul>
+                                    <li class="rowred">Nolan-Sorrento@EvilCEO.com</li>
+                                    <li class="rowsal">Potter@darklord.com</li>
+                                    <li class="rowred">Palpatiene@darklord.com</li>
+                                    <li class="rowsal">Sauron@darklord.com</li>
+                                    <li class="rowred">Voldermort@darklord.com</li>
+                                    <li class="rowsal">Thanos@darklord.com</li>
+                                    <li class="rowred">Saruman@darklord.com</li>
+                                    <li class="rowsal">Lucius@minnions-r-us </li>
+                                    <li class="rowred">Draco@darklord.com</li>
+                                    <li class="rowsal">Goyle@minnions-r-us</li>
+                                    <li class="rowred">Crabby@minnions-r-us</li>                         
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -278,7 +311,7 @@
             const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
             const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
         </script>
-        <!--the images i used cam from 
+        <!--the images I used cam from 
             user icon-https://icons8.com/icons/set/evil-look
             logo-https://thenounproject.com/icon/astronaut-1632965/
             favicon-https://iconarchive.com/show/free-space-icons-by-goodstuff-no-nonsense.html -->
